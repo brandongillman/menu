@@ -24,3 +24,9 @@ body{
 .price{
 	float: right;
 }
+@media (max-width: 700 px){
+	.outside {
+		height: 200px;
+		margin-top: 20px;
+	}
+}
