@@ -6,6 +6,9 @@
 	text-align: center;
 	background-color: #6699FF;
 }
+.social{
+	text-align: center;
+}
 .btn{
 	background-color: blue;
 }
@@ -22,14 +25,23 @@ body{
 }
 .item{
 	height: 400px;
-	width: 970px;
+	min-width: 100%;
+	max-width: none;
+	position: absolute;
+  	top: 0;
+  	left: 0;
 }
 h3{
 	font-family: Papyrus, fantasy;
 	font-size: 40px;
 	text-shadow: 4px 4px 10px green;
 }
-
+h2{
+	color: #d7ceb2;
+	text-shadow: 3px 3px 0px #2c2e38, 5px 5px 0px #5c5f72;
+	font: 80px 'BazarMedium';
+	letter-spacing: 10px;s
+}
 h4, h5, p {
     font-family: Papyrus, fantasy;
 }
