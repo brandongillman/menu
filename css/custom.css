@@ -1,21 +1,17 @@
-h1, .h1, h2, .h2, h3, .h3 {
-	margin-top: 80px;
-	margin-bottom: 10px;
-}
+
 .logo{
 	height: 80px;
 }
 .jumbotron, .row{
 	text-align: center;
+	background-color: #6699FF;
 }
 .btn{
 	background-color: blue;
 }
-.jumbotron{
-	background-color: white;
-}
 body{
 	margin-top: 20px;
+	background-color: #C8C8C8 ;
 	margin-right: 0px;
 }
 .top{
@@ -24,9 +20,35 @@ body{
 .price{
 	float: right;
 }
-@media (max-width: 700 px){
-	.outside {
-		height: 200px;
-		margin-top: 20px;
-	}
+.item{
+	height: 500px;
+	width: 900px;
+}
+h3{
+	font-family: Papyrus, fantasy;
+	font-size: 40px;
+	text-shadow: 4px 4px 10px green;
+}
+
+h4, h5, p {
+    font-family: Papyrus, fantasy;
+}
+.section{
+	border-radius: 10px;
+	border-color: green;
+    border-top-style: groove;
+    border-right-style: groove;
+    border-bottom-style: groove;
+    border-left-style: groove;
+    border-width: 15px;
+    margin: 10px;
+	padding: 30px;
+	color: white;
+	background-color: #6699FF;
+}
+.bar{
+	color: black;
+}
+.map{
+	text-align: center;
 }
